@@ -1,6 +1,6 @@
 # To you:
 
-As an artist, you need a place to show your work and share it with others. My dearest friend can promote her artwork and attract more visitors through the Art Gallery. This website will function as an online portfolio for her paintings, sketches, sculptures, and other creative works.
+As an artist, you need a place to show your work and share it with others. My dearest friend can promote her artwork and attract more visitors through the Art Gallery. This website will function as an online portfolio for her paintings, sketches, and other creative works.
 
 # My Dear,
 
