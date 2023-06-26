@@ -4,5 +4,7 @@ As an artist, you need a place to show your work and share it with others. My de
 
 # My Dear,
 
-I wanted to make something completely unique, a gift that captures the essence of your extraordinary talent and lauds the beautiful artist that you are. This Art Gallery is my personal affection to you and your fascinating creative avenues. Finally, i had something to give you that is trully from my passion just like the one that you gave me
+I wanted to make something completely unique, a gift that captures the essence of your extraordinary talent and lauds the beautiful artist that you are. This Art Gallery is my personal affection to you and your fascinating creative avenues. Finally, i had something to give you that is trully from my passion just like the one that you gave me. 
+
+ps. it will take months idk how long it will took but, give me some time soon enough you'll be surprised! 
 
