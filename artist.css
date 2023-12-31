@@ -1,42 +1,90 @@
+/* Basic Styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #f3f3f3;
     padding: 20px;
     text-align: center;
 }
 
-#bio {
-    margin: 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-#artworks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li label {
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
 }
 
 footer {
-    background-color: #f8f9fa;
-    padding: 20px;
     text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
 
+/* Dark Mode Styles */
+.dark-theme {
+    background-color: #1f1f1f;
+    color: white;
+}
 
-body.dark {
+.dark-theme header {
+    background-color: #111;
+    color: white;
+}
+
+.dark-theme footer {
+    background-color: #111;
+}
+
+#artworks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column size as needed */
+    grid-gap: 20px; /* Adjust the gap between artworks */
+    justify-items: center;
+}
+
+.artwork {
+    border: 2px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.toggle-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #bbb;
+}
+
+#darkModeToggle:checked + .toggle-button {
     background-color: #333;
     color: #fff;
-  }
-  
-  body.dark a {
-    color: #fff;
-  }
-  
-  body.dark .cta {
-    background-color: #fff;
-    color: #333;
-  }
-  
+}
